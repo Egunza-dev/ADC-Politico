@@ -102,6 +102,7 @@ main{
 	border-radius:15px;
 	font-size:16px;
 	padding:50px;
+	height: 500px;
 }
 
 article{
@@ -115,7 +116,8 @@ article{
 
 #center_form{
     margin:30px;    
-    text-align:center;
+	text-align:center;
+	margin-bottom:80px; 
 }
 form {
     border: 1px solid lightgray; 
@@ -192,7 +194,6 @@ footer{
 	background-color:black;
 	color:white;
 	margin-bottom:0px;
-	margin-top:20px;
 	padding:3px;
 	font-weight:bold;
 	font-style: italic;
