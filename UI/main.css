@@ -37,6 +37,7 @@ body{
 }
 header{
 	position: fixed;
+	z-index: 999;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -76,12 +77,17 @@ nav a{
 	margin-left:16.5%;
 	margin-right:16.5%;
 	margin-top:16px;
+	padding-bottom:90px;
 	padding:30px;
-}
+	
+	}
 
 .content > p{	
 	padding:30px;
 	}
+.img_center{
+	text-align: center;
+}
 
 main{
 	display: flex;
@@ -90,7 +96,11 @@ main{
 	margin-top:110px;
 }
 
-
+img{
+	position: relative;
+	z-index: 99;
+	opacity: 0.8;
+}
 
 
 .second_aside{
@@ -102,7 +112,8 @@ main{
 	border-radius:15px;
 	font-size:16px;
 	padding:50px;
-	height: 500px;
+	height: auto;
+	margin-bottom: 70px;
 }
 
 article{
@@ -118,6 +129,7 @@ article{
     margin:30px;    
 	text-align:center;
 	margin-bottom:80px; 
+	font-size: 16px;
 }
 form {
     border: 1px solid lightgray; 
@@ -161,13 +173,14 @@ label{
 }
 form button {
     background-color: lightskyblue;
-    color: white;
+    color: black;
     padding: 14px 20px;
     margin: 8px 0;
     cursor: pointer;
     width: 100%;
     border-radius:15px;
-    border:none;
+	border:none;
+	font-size: 16px;
 }
 
 
