@@ -292,6 +292,7 @@ form button{
 	margin-top: 30px;
 	margin-bottom: 40px;
 	border-radius:15px;
+	color:black;
 }
 .btn{
 	background-color:lightblue;
@@ -301,6 +302,7 @@ form button{
 	margin-top: 30px;
 	margin-bottom: 80px;
 	border-radius:15px;
+	color:black;
 }
 
 .del{
