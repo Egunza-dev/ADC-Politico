@@ -258,15 +258,17 @@ form button{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-	grid-column-gap: 16px;
-	grid-row-gap: 16px;
-	font-size:14px;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	font-size:16px;
 	margin-top: 40px;
 	margin-bottom: 100px;
+	padding: 150px;
+	padding-top: 20px;
 }
 
 .grid_container h6{
-	font-size:12px;
+	font-size:14px;
 
 }
 
