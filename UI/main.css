@@ -169,6 +169,7 @@ img{
 	font-size:16px;
 	padding:50px;
 	height: auto;
+	max-height: 800px;
 	margin-bottom: 70px;
 }
 
@@ -271,6 +272,21 @@ form button{
 	font-size:14px;
 
 }
+
+.grid_container2{
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	font-size:18px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	padding: 120px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
 
 .crud_display input{
 	border:none;
