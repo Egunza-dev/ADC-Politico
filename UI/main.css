@@ -208,7 +208,8 @@ input[type=text], input[type=password], input[type=date], input[type=number] {
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
-    box-sizing: border-box;
+	box-sizing: border-box;
+	margin-bottom: 20px;
 }
 
 label{
@@ -241,9 +242,13 @@ form button {
 
 
 form button:hover {
-    opacity: 0.8;
+	opacity: 0.8;
+	
 }
 
+form button{
+	width: 40%;
+}
 
 .container {
     padding: 16px;
@@ -265,6 +270,46 @@ form button:hover {
 
 }
 
+.crud_display input{
+	border:none;
+}
+
+.left_flaot{
+	float:left;
+}
+
+.right_flaot{
+	float:right;
+}
+
+.red_btn{
+	background-color: red;
+	padding: 20px;
+	text-decoration: none;
+	margin:25px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	border-radius:15px;
+}
+.btn{
+	background-color:lightblue;
+	padding: 20px;
+	text-decoration: none;
+	margin:25px;
+	margin-top: 30px;
+	margin-bottom: 80px;
+	border-radius:15px;
+}
+
+.del{
+	padding: 50px;
+}
+
+.crud_display button{
+	width: 40%;
+	margin-left: 20px;
+	margin-right:20px;
+}
 footer{
 	clear:both;
 	position:absolute;
