@@ -1,0 +1,14 @@
+[
+  "app/tests/test_offices.py::TestOfficesEndpoints::test_api_can_create_office",
+  "app/tests/test_offices.py::TestOfficesEndpoints::test_api_can_get_all_offices",
+  "app/tests/test_offices.py::TestOfficesEndpoints::test_api_can_get_office_by_id",
+  "app/tests/test_offices.py::TestOfficesEndpoints::test_api_raises_error_on_invalid_input",
+  "app/tests/test_offices.py::TestOfficesEndpoints::test_api_response_for_non_existing_resource",
+  "app/tests/test_parties.py::TestPartiesEndpoints::test_api_can_create_party",
+  "app/tests/test_parties.py::TestPartiesEndpoints::test_api_can_edit_party",
+  "app/tests/test_parties.py::TestPartiesEndpoints::test_api_can_get_all_parties",
+  "app/tests/test_parties.py::TestPartiesEndpoints::test_api_can_get_party_by_id",
+  "app/tests/test_parties.py::TestPartiesEndpoints::test_api_raises_error_on_invalid_input",
+  "app/tests/test_parties.py::TestPartiesEndpoints::test_api_response_for_non_existing_resource",
+  "app/tests/test_parties.py::TestPartiesEndpoints::test_party_deletion"
+]
