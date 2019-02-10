@@ -1,12 +1,22 @@
- language: python
-  python:
-    - "3.6"
+language: python
+python:
+  - "3.6.7"
 
-  install:
-   - pip3 install -r requirements.txt
-   
-  script:
-    - pytest
+notifications:
+  email: false
 
-  after_success: 
-  	- coveralls
+  
+# install dependencies
+install:
+  - pip install -r requirements.txt
+  - pip install -e .
+  
+
+
+# run pytest
+script:
+  - pytest 
+
+# then post the results to coveralls
+after_success:
+  - coveralls
